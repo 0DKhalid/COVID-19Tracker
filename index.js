@@ -24,7 +24,7 @@ try {
           `);
     } catch (err) {
       const ISO3 = err.response.data.error.message.match(/`(.*?)`/gm)[0];
-      ctx.reply(`الترميز غير صحيح تأكد من إدخال ترميز صحيح (${ISO3})`);
+      ctx.reply(` لاتوجد بيانات تأكد من إدخال ترميز صحيح(${ISO3})`);
     }
   });
 
