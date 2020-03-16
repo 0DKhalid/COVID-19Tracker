@@ -1,6 +1,6 @@
-##Sample Telegram For Tracke COVID-19 virus Cases.
+## Sample Telegram For Tracke COVID-19 virus Cases.
 
-#Use:
+# Use:
 
 1. Clone this repo
 2. Create Telegram Bot from [BotFather](https://t.me/botfather)
