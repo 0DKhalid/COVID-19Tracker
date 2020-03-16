@@ -17,9 +17,9 @@ bot.on('message', async ctx => {
     const data = await fetchCasesData(ctx.message.text);
     ctx.reply(`
             **تقرير الحالات:**
-            الحالات المُسجلة: ${data.confirmed.value} حالة
-            حالات التعافي: ${data.recovered.value} حالة
-            حالات الوفاة: ${data.deaths.value} حالة
+            الحالات المُسجلة: ${data.confirmed.value} 
+            حالات التعافي: ${data.recovered.value} 
+            حالات الوفاة: ${data.deaths.value} 
             `);
   } catch (err) {
     console.log(err);
