@@ -1,4 +1,4 @@
-## Sample Telegram For Tracke COVID-19 virus Cases.
+## Sample Telegram Bot For Tracke COVID-19 virus Cases.
 
 # Use:
 
